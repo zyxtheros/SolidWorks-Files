@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T19:12:54.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="18.0.3" etag="poniKoJz1kAqJfm252cY" type="github"><diagram id="m5IBiW5kevt0tJABFaej">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-11T19:34:05.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9GHtmIip-9igLzvvygpS" version="18.0.3" type="github">
+  <diagram id="m5IBiW5kevt0tJABFaej" name="Page-1">
+    <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-1" value="ESP32-S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-3" value="Pricing and Item Links" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="170" height="140" as="geometry" />
+        </mxCell>
+        <UserObject label="ESP32-S2" linkTarget="_blank" link="https://www.adafruit.com/product/5323" id="cqtdjFgB7g66zWOiRJvb-8">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;align=left;labelBorderColor=none;labelBackgroundColor=none;strokeColor=none;fillColor=none;" vertex="1" parent="cqtdjFgB7g66zWOiRJvb-3">
+            <mxGeometry y="30" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="NXP 9-DOF Breakout Board" linkTarget="_blank" link="https://www.adafruit.com/product/3463" id="cqtdjFgB7g66zWOiRJvb-13">
+          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;align=left;labelBorderColor=none;labelBackgroundColor=none;strokeColor=none;fillColor=none;" vertex="1" parent="cqtdjFgB7g66zWOiRJvb-3">
+            <mxGeometry y="70" width="170" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-6" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="cqtdjFgB7g66zWOiRJvb-3">
+          <mxGeometry y="110" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-14" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="80" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-17" value="AI2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="406.25" y="33.75" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-18" value="AI1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="406" y="70" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-19" value="GI2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="406" y="110" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-21" value="GI1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="406" y="160" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-22" value="VIN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="35.63" width="37.5" height="26.25" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-23" value="GND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="110" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-24" value="3Vo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="70" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-25" value="SCL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="160" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-26" value="SDA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="200" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cqtdjFgB7g66zWOiRJvb-27" value="RST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="355" y="240" width="37.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
