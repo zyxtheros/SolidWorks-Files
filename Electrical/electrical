@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T13:29:11.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="PDyrjjfUuIfIRZpYDT7_" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T14:34:23.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="sblnFcDRm6aeqyLcfkYO" version="18.0.3" type="github">
   <diagram id="m5IBiW5kevt0tJABFaej" name="Page-1">
-    <mxGraphModel dx="738" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="431" dy="232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,7 +139,7 @@
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-25">
           <mxGeometry x="0.6453103219381546" width="70" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="tCCWx7s6jI7rvE4vW-KT-3" value="&lt;i&gt;&lt;b&gt;L293D&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=0;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-25">
+        <mxCell id="tCCWx7s6jI7rvE4vW-KT-3" value="&lt;i&gt;&lt;b&gt;DRV8871&lt;/b&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=0;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-25">
           <mxGeometry x="0.6453103219382115" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-7" value="IN1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=0;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-25">
@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-48" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="425" y="300" width="135" height="75" as="geometry" />
+          <mxGeometry x="425" y="300" width="165" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-48">
           <mxGeometry width="110" height="75" as="geometry" />
@@ -209,6 +209,9 @@
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-53" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VCC&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-48">
           <mxGeometry x="80" y="20" width="30" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="tCCWx7s6jI7rvE4vW-KT-54" value="6.5V" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tCCWx7s6jI7rvE4vW-KT-48">
+          <mxGeometry x="110" y="50" width="55" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tCCWx7s6jI7rvE4vW-KT-30" target="tCCWx7s6jI7rvE4vW-KT-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -220,12 +223,20 @@
         <mxCell id="tCCWx7s6jI7rvE4vW-KT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="tCCWx7s6jI7rvE4vW-KT-14" target="tCCWx7s6jI7rvE4vW-KT-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="260" />
-              <mxPoint x="270" y="390" />
-              <mxPoint x="550" y="390" />
+              <mxPoint x="250" y="260" />
+              <mxPoint x="250" y="370" />
+              <mxPoint x="360" y="370" />
+              <mxPoint x="360" y="400" />
+              <mxPoint x="550" y="400" />
               <mxPoint x="550" y="341" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tCCWx7s6jI7rvE4vW-KT-55" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="345" y="343.75" width="30" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tCCWx7s6jI7rvE4vW-KT-63" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;0.1&lt;span style=&quot;font-family: Roboto, arial, sans-serif; text-align: left;&quot;&gt;µ&lt;/span&gt;F&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="55" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
